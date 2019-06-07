@@ -3,5 +3,4 @@
 	"name": "KeepPrivate",
 	"display": "standalone",
 	"theme_color": "#ec9900",
-	"start_url": "/home"
 }
