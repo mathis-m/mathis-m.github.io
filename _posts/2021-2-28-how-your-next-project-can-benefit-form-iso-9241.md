@@ -151,11 +151,11 @@ In addition [#5264](https://github.com/swagger-api/swagger-ui/issues/5264) state
 
 ![](https://cdn-images-1.medium.com/max/3244/1*nIDmTKDpYzEC-yrbf4Gn5A.png)
 
-In #4018 it is stated that when it comes to large responses Swagger-UI freezes because of the syntax highlighting. This could be fixed by providing a toggle to switch between raw and formatted response.  
-The author of #6295 states that if a request body includes for example an extra comma the operation can not be executed. This corresponds with the identified need of a tester that would like to test invalid data. Swagger-UI does a good job validating the request and I like that feature but some times a unrestricted mode is required.  
-With #5169 the author shows that Swagger-UI lacks behind on it's multipart documentation feature. In multipart request the request body is split into parts. Currently when viewing multipart body in the documentation one does get no preview of a sample value. It should be documented just like the parameters part is.  
+In [#4018](https://github.com/swagger-api/swagger-ui/issues/4018) it is stated that when it comes to large responses Swagger-UI freezes because of the syntax highlighting. This could be fixed by providing a toggle to switch between raw and formatted response.  
+The author of [#6295](https://github.com/swagger-api/swagger-ui/issues/6295) states that if a request body includes for example an extra comma the operation can not be executed. This corresponds with the identified need of a tester that would like to test invalid data. Swagger-UI does a good job validating the request and I like that feature but some times a unrestricted mode is required.  
+With [#5169](https://github.com/swagger-api/swagger-ui/issues/5169) the author shows that Swagger-UI lacks behind on it's multipart documentation feature. In multipart request the request body is split into parts. Currently when viewing multipart body in the documentation one does get no preview of a sample value. It should be documented just like the parameters part is.  
 ![image](https://user-images.githubusercontent.com/11584315/109387213-5d776a00-7900-11eb-8c56-161cf5bf5152.png)
-In #4735 the need for a custom URL input is clarified. With this users are able to change the server URL on demand. Currently this would require a change of the OpenAPI Specification used.
+In [#4735](https://github.com/swagger-api/swagger-ui/issues/4735) the need for a custom URL input is clarified. With this users are able to change the server URL on demand. Currently this would require a change of the OpenAPI Specification used.
 
 - TODO
 
